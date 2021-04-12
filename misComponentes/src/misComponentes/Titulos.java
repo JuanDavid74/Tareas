@@ -17,7 +17,7 @@ public class Titulos extends JLabel {
 	public Titulos(String texto, int tamano, Color colorFondo) {
 		this.setText(texto);
 		// propiedades basicar para la fuente
-		Font font = new Font(Font.SERIF,Font.BOLD+Font.ITALIC, tamano);
+		Font font = new Font(Font.SERIF,Font.BOLD, tamano);
 							// font // style negrita and cursiva // size
 		this.setFont(font); //for the text is aplicated this characteristics 
 		this.setBackground(colorFondo); // color Background
